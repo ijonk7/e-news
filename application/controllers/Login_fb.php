@@ -5,8 +5,8 @@ class Login_fb extends CI_Controller {
     public function index()
     {
         $fb = new Facebook\Facebook([
-            'app_id' => '522555908558801', // Replace {app-id} with your app id
-            'app_secret' => 'e038bc6bcb111c0499d80cab460efccb',
+            'app_id' => '986693465195153', // Replace {app-id} with your app id
+            'app_secret' => 'b99320f5c47469bb86007cd51c234d88',
             'default_graph_version' => 'v2.2',
         ]);
           
